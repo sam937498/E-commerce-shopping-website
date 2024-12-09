@@ -1,0 +1,58 @@
+let shopItemsData = [
+    {
+      id: "ajfhgbvnscs",
+      name: "PUMA",
+      price: 499,
+      desc: "Men Solid Polo Neck Pure Cotton T-Shirt",
+      img: "image/products/tshirt2.1.jpg",
+    },
+    {
+      id: "bljdlkfjjdlksfj",
+      name: "Nike",
+      price: 899,
+      desc: "Men Printed Round Neck Pure Cotton  T-Shirt",
+      img: "image/products/tshirt3.1.jpg",
+    },
+    {
+      id: "cwuefbncxbsn",
+      name: "NAUTICA",
+      price: 699,
+      desc: "Women Slim Fit Self Design Casual Shirt",
+      img: "image/products/tshirt4.1.jpg",
+    },
+    {
+      id: "dthyfhcbcv",
+      name: "Tommy Hilfiger",
+      price: 999,
+      desc: "Men Printed Pure Cotton Red T-Shirt",
+      img: "image/products/tshirt5.1.jpg",
+    },
+    {
+      id: "fssfdslkjfjj",
+      name: "RodZen",
+      price: 599,
+      desc: "Boys Printed Pure Cotton Regular T Shirt",
+      img: "image/products/t-shirt6.1.jpg",
+    },
+    {
+      id: "gioytrhndcv",
+      name: "UrGear",
+      price: 699,
+      desc: "Boys Printed Pure Cotton Regular T Shirt",
+      img: "image/products/tshirt7.jpg",
+    },
+    {
+      id: "hwuefbncxbsn",
+      name: "Wrangler",
+      price: 799,
+      desc: " Slim Fit Self Design Casual Shirt",
+      img: "image/products/tshirt8.jpg",
+    },
+    {
+      id: "iwuefbncxbsn",
+      name: "Van Heusen",
+      price: 899,
+      desc: "Women Printed Pure Cotton Regular T Shirt",
+      img: "image/products/w-shirt2.1.jpg",
+    },
+  ];

@@ -1,0 +1,179 @@
+!<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top Wears</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="nav">
+        <div class="nav1">
+          <img src="image/logo.png" alt="" />
+          <a href="index.html" class="logo">Xcel-Fashion</a>
+          <form action="#">
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Search from our 1000+ designs "
+            />
+            <button type="button" class="search_button">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+        <div class="nav2">
+          <div class="tabs">
+            <ul class="tabs-lists">
+              <li><a href="index.html">Home</a></li>
+              <li class="dropdown-menu">
+                <a href="Top Wears.html"
+                  >Top Wears <i class="fa-solid fa-caret-down"></i
+                ></a>
+                <div class="dropdown">
+                  <ul>
+                    <li>T-Shirts</li>
+                    <li>Formal Shirts</li>
+                    <li>Casual Shirts</li>
+                    <li>Jackets</li>
+                    <li>Hoodies</li>
+                    <li>SweatShirts</li>
+                    <li>TrackShirts</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="dropdown-menu">
+                <a href="bottomWear.html"
+                  >Bottom Wears <i class="fa-solid fa-caret-down"></i
+                ></a>
+                <div class="dropdown">
+                  <ul>
+                    <li>Jeans</li>
+                    <li>Formal Trousers</li>
+                    <li>Casual Trousers</li>
+                    <li>Track Pants</li>
+                    <li>Cargos</li>
+                    <li>Shorts</li>
+                  </ul>
+                </div>
+              </li>
+
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="tabs2">
+            <ul>
+              <li id="cart">
+                <a href="cart.html"
+                  ><i class="fa-solid fa-cart-plus"
+                    ><span id="cartAmount" class="cartAmount">0</span></i
+                  ></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <section id="page-header" class="about-header">
+        <h1>#KnowUs</h1>
+        <p>Explore our collection and find your perfect fit!</p>
+      </section>
+
+      <section id="cart2" class="section-p1">
+        <table width="100%">
+          <thead>
+            <tr>
+              <td>REMOVE</td>
+              <td>IMAGE</td>
+              <td>PRODUCT</td>
+              <td>PRICE</td>
+              <td>QUANTITY</td>
+              <td>SUBTOTAL</td>
+            </tr>
+          </thead>
+          <tbody id="ShoppingCart"></tbody>
+        </table>
+      </section>
+
+      <section id="cart2-add" class="section-p1">
+        <div id="coupon">
+          <h3>Apply Coupon</h3>
+          <div>
+            <input type="text" placeholder="Enter Your Coupon" name="" id="" />
+            <button style="color: pink" class="w3-button w3-pink">Apply</button>
+          </div>
+        </div>
+
+        <div id="subtotal" class="subtotal"></div>
+      </section>
+
+      <footer class="section-p1">
+        <div class="col col1">
+          <img class="logo" src="image/logo-text.png" alt="" />
+          <h4>Contact</h4>
+          <p><strong>Adress:</strong> Dhubulia Deshbandhu nagar</p>
+          <p><strong>Phone:</strong> +9100009999</p>
+          <p><strong>Hours:</strong> 10.00-18.00 Mon - Sat</p>
+          <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-pinterest-p"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <h4>About</h4>
+          <a href="#">About us</a>
+          <a href="#">Delivery Information</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Term & Condition</a>
+          <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+          <h4>My Account</h4>
+          <a href="#">Sign In</a>
+          <a href="#">View Cart</a>
+          <a href="#">My Wishlist</a>
+          <a href="#">Track My Order</a>
+          <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+          <h4>Install App</h4>
+          <p>From App Store or Google Play</p>
+          <div class="row">
+            <img src="image/appstore.png" alt="" />
+            <img src="image/googleplay2.png" alt="" />
+          </div>
+          <p>Secured Payment Gateways</p>
+          <img src="image/payment.png" alt="" />
+        </div>
+
+        <div class="copyright">
+          <p>@ 2024, Tech etc - HTML, CSS Ecommerce Template</p>
+        </div>
+      </footer>
+    </div>
+    <script src="data.js"></script>
+    <script src="cart.js"></script>
+  </body>
+</html>
